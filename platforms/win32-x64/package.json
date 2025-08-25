@@ -1,8 +1,8 @@
 {
   "name": "@ffmpeg-installer/win32-x64",
-  "version": "4.1.0",
+  "version": "7.1.1",
   "description": "Windows FFmpeg binary used by ffmpeg-installer",
-  "homepage": "https://ffmpeg.zeranoe.com/builds/win64/static/",
+  "homepage": "https://www.gyan.dev/ffmpeg/builds/#release-builds",
   "scripts": {
     "test": "file ffmpeg.exe | grep -qF \"PE32+\"",
     "prepublishOnly": "npm test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kribblo/node-ffmpeg-installer.git",
+    "url": "https://github.com/devdeep-capitalcompute/node-ffmpeg-installer.git",
     "directory": "platforms/win32-x64"
   },
   "keywords": [
@@ -25,7 +25,7 @@
   "cpu": [
     "x64"
   ],
-  "author": "Kristoffer Lundén <kristoffer.lunden@gmail.com>",
+  "author": "Devdeep Ghosh <devdeep@capitalcompute.com>",
   "license": "GPLv3",
   "ffmpeg": "20181217-f22fcd4"
 }
